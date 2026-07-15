@@ -6,6 +6,10 @@ public class Main {
 
         System.out.println(saludo.generarSaludo("Mundo"));
 
+        Despedida despedida = new Despedida();
+
+        System.out.println(despedida.generarDespedida("Mundo"));
+
     }
 
 }
